@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的简历</title>
+    <link rel="stylesheet" href="./image/css.css">
+    <style type="text/css"></style>
+    <style>
+      header {
+            
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+      }
+        
+
+        section {
+            display: flex;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 80px;
+            background-color: rgb(0, 103, 119);
+            box-shadow: 0 0 10px rgba(120, 3, 3, 0.1);
+        }
+
+        .future-expectation {
+            flex: 1;
+            margin: 0 10px; /* 添加外边距，制造间隔 */
+        }
+
+        h2 {
+            color: #333;
+        }
+        div{
+
+            margin: 40px auto;
+            background-color: #225f85;
+            border-radius: 5px;
+            box-shadow: 0 1px 2px rgb(173, 1, 1);
+            animation: breathe 3s ease-in-out infinite alternate;
+
+        }
+        @keyframes breathe{
+            0%{
+                opacity: 0.2;
+                box-shadow: 0 1px 2px rgba(255, 255, 255, 0);
+            }
+            50%{
+                opacity: 0.5;
+                box-shadow: 0 1px 2px rgb(39, 164, 39);
+            }
+            100%{
+                opacity: 1;
+                box-shadow: 0 1px 30px rgb(230, 0, 255);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <audio autoplay="autoplay" controls  src="./image/sunnyday.mp3" ></audio>
+    
+    <video src="./image/bgi.mp4" class="beijing" autoplay loop muted></video>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="a">
+        <tr>
+            <td><img src="./image/logo (2).png" height="250px" width="250px"></td>
+            <td width="100" align="center"><a href="index.html"><span>
+                        <h3 class="zhuye">主页</h3>
+                    </span></a></td>
+            <td width="100" align="center"><a href="./hobby.html"><span>
+                        <h3 class="zhuye">我的爱好</h3>
+                    </span></a></td>
+            <td width="100" align="center"><a href="./study.html"><span>
+                        <h3 class="zhuye">学习历程</h3>
+                    </span></a></td>
+            <td width="100" align="center"><a href="./mylife.html"><span>
+                        <h3 class="zhuye">我的收获</h3>
+                    </span></a></td>
+            <td width="100" align="center"><a href="./future.html"><span>
+                        <h3 class="zhuye">未来期望</h3>
+                    </span></a></td>
+        </tr>
+        <table>
+            <header>
+                <h1>我的未来期望</h1>
+            </header>
+        
+            <section>
+                <div class="future-expectation">
+                    <h2>学习更多专业知识</h2>
+                    <p>我期望不断深化专业知识，保持对新技术和领域的敏感性，不断提升自己的技术水平。</p>
+                </div>
+        
+                <div class="future-expectation">
+                    <h2>锻炼编程动手能力</h2>
+                    <p>通过实际项目和编码挑战，我计划提高自己的编程动手能力，培养解决问题的实际能力。</p>
+                </div>
+        
+                <div class="future-expectation">
+                    <h2>继续研究生深造</h2>
+                    <p>我希望继续深造，攻读研究生学位，深入研究我感兴趣的领域，为未来的职业发展打下坚实基础。</p>
+                </div>
+            </section>
+</body>
+
+</html>

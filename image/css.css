@@ -1,0 +1,90 @@
+body {
+    margin: 0%;
+    padding: 3%;
+}
+
+.a {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #738CAA;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.block1 {
+    text-align: center;
+    margin-top: 200px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(247, 146, 4)
+}
+
+video {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    /*加滤镜*/
+    /*filter: blur(15px); //背景模糊设置 */
+    /*-webkit-filter: grayscale(100%);*/
+    /*filter:grayscale(100%); //背景灰度设置*/
+    z-index: -11
+}
+
+.beijing {
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.introduce {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduce_item {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.introduce_item_img {
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+
+}
+
+.mybic {
+    color: rgb(117, 28, 218);
+    width: 450px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    line-height: 36px;
+    align-self: center;
+    padding-left: 100px;
+}
+.mybic1 {
+    color: rgb(81, 4, 125);
+    width: 450px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    line-height: 36px;
+    align-self: center;
+    padding-left: 50px; 
+}
+
+.introduce_item_titles {
+    width: 400px;
+    font-size: 18px;
+    line-height: 36px;
+    align-self: center;
+    padding-right: 100px;
+}
